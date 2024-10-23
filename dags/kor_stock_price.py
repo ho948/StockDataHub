@@ -31,7 +31,7 @@ dag = DAG(
     default_args=default_args,
     description='한국 주식시세정보 API',
     schedule_interval='@daily',
-    catchup=False
+    catchup=True
 )
 
 def fetch(company_name, date):
