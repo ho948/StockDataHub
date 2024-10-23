@@ -3,6 +3,35 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# custom files
+*.csv
+secret.*
+*.env
+.DS_Store
+
+# Airflow configuration
+airflow.cfg
+airflow_login.py
+dbinit.py
+initdb.py
+secrets.py
+
+# Airflow sqlite databases
+airflow.db
+
+# Airflow temporary artifacts
+airflow/git_version
+airflow/www/static/coverage/
+airflow/www/*.log
+airflow/ui/coverage/
+config/
+logs/
+plugins/
+airflow-webserver.pid
+standalone_admin_password.txt
+warnings.txt
+warn-summary-*.txt
+
 # C extensions
 *.so
 
